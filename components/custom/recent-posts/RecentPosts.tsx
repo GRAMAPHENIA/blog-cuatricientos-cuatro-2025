@@ -9,7 +9,7 @@ const RecentPosts = () => (
     <ul className="space-y-2">
       {posts.slice(0, 3).map((post: Post) => (
         <li key={post.id} className="text-sm text-gray-700 dark:text-gray-300">
-          <a href={`/posts/${post.id}`} className="hover:underline">
+          <a href={`/posts/${post.id}`} className="hover:text-cyan-500 hover underline">
             {post.title}
           </a>
         </li>

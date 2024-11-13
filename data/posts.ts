@@ -45,7 +45,7 @@ export const posts: Post[] = [
   },
   {
     id: "2",
-    title: "Construyendo UIs Hermosas con Tailwind CSS",
+    title: "Construyendo UIs con Tailwind CSS",
     slug: "construyendo-uis-hermosas-tailwind-css",
     excerpt:
       "Descubrí cómo crear interfaces de usuario impresionantes usando Tailwind CSS. Desde estilos básicos hasta componentes avanzados.",
